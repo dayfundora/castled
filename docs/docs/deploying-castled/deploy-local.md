@@ -27,6 +27,6 @@ Deploying Castled locally is fairly straightforward.
 
 3. You will see the Castled ascii art showing up, once all the services are up.
 
-   ![ascii art](/img/screens/deploying/local/castled-ascii.png)
+   ![ascii art](/docs/static/img/screens/deploying/local/castled-ascii.png)
 
 4. Castled UI should be available at [http://localhost:3000](http://localhost:3000). Happy castling!!!

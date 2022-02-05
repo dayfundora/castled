@@ -107,7 +107,7 @@ GRANT USAGE ON FUTURE FUNCTIONS IN SCHEMA "<your_database>"."<your_schema>" TO R
   - Access key is a combination of the access key Id and secret access key.You need to use this Access Key Id and Secret Access Key to connect to your AWS Connect and access the S3 Bucket.
 - **S3 Access Key Secret**
 
-![Docusaurus](/img/screens/sources/snowflake/wh_snowflake_config.png)
+![Docusaurus](/docs/static/img/screens/sources/snowflake/wh_snowflake_config.png)
 
 
 

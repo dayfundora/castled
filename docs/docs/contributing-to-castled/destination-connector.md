@@ -24,7 +24,7 @@ public class KafkaAppConfig extends AppConfig {
 
 In case of kafka, only the bootstrap servers configuration (which includes the kafka hostname and port) is sufficient to establish connection to the kafka server. The CFL will auto generate the Kafka App Config Form as shown below
 
-![kafka_config](/img/screens/contributing/kafka_config.png)
+![kafka_config](/docs/static/img/screens/contributing/kafka_config.png)
 
 ## Configuring the app sync config
 

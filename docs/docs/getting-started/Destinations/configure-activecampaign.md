@@ -14,22 +14,22 @@ For configuring a new app connector for customer.io, the following fields needs 
 - **API KEY**
 - **API URL**
 
-![Docusaurus](/img/screens/destinations/activecampaign/app_actcamp_app_config.png)
+![Docusaurus](/docs/static/img/screens/destinations/activecampaign/app_actcamp_app_config.png)
 
 **Login** to ActiveCampaign and navigate to **Settings > Developer**  to get **API KEY ** and **API URL** required for configuring the app connector
 
-![Docusaurus](/img/screens/destinations/activecampaign/app_actcamp_account_settings.png)
+![Docusaurus](/docs/static/img/screens/destinations/activecampaign/app_actcamp_account_settings.png)
 
 
 ## Creating a sync pipeline
 
 ### Objects to sync
 Castled supports syncing of **Contact** Object
-![Docusaurus](/img/screens/destinations/activecampaign/app_actcamp_sync_objects.png)
+![Docusaurus](/docs/static/img/screens/destinations/activecampaign/app_actcamp_sync_objects.png)
 
 ### Sync Modes 
 Castled supports only **UPSERT** mode for Contact Object
-![Docusaurus](/img/screens/destinations/activecampaign/app_actcamp_sync_modes.png)
+![Docusaurus](/docs/static/img/screens/destinations/activecampaign/app_actcamp_sync_modes.png)
 
 ### Field mapping
 - Castled populates all the warehouse columns by default.You shall map the WAREHOUSE COLUMN to the appropriate APP COLUMN in the destination app.

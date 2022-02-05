@@ -60,6 +60,6 @@ In the commands displayed above
 - **[service-account-user]** is your Castled Service Account.
 - **[gcs-bucket-name]** is your the GCS Bucket Name.
 
-![Docusaurus](/img/screens/sources/bigquery/wh_bigquery_config.png)
+![Docusaurus](/docs/static/img/screens/sources/bigquery/wh_bigquery_config.png)
 
 

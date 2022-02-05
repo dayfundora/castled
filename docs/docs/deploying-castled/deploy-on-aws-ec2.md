@@ -13,19 +13,19 @@ Follow the below steps to create a new EC2 instance fairly quickly
 1. Login to your AWS web console
 2. Select EC2 service
 
-   ![ec2 service](/img/screens/deploying/ec2/ec2-service.png)
+   ![ec2 service](/docs/static/img/screens/deploying/ec2/ec2-service.png)
 
 3. Select `Launch Instances` in navigation tab.
 
-   ![ec2 launch](/img/screens/deploying/ec2/ec2-launch-instances.png)
+   ![ec2 launch](/docs/static/img/screens/deploying/ec2/ec2-launch-instances.png)
 
 4. Select any `Amazon Linux 2 AMI` instance type
 
-   ![ec2 instance type](/img/screens/deploying/ec2/ec2-linux-ami.png)
+   ![ec2 instance type](/docs/static/img/screens/deploying/ec2/ec2-linux-ami.png)
 
    Choose at least a `t2.medium` instance type for the best experience.
 
-   ![ec2 t2 instance](/img/screens/deploying/ec2/ec2-t2-medium-instance.png)
+   ![ec2 t2 instance](/docs/static/img/screens/deploying/ec2/ec2-t2-medium-instance.png)
 
 5. `Next: Configure Instance Details`
 
@@ -34,7 +34,7 @@ Follow the below steps to create a new EC2 instance fairly quickly
 6. `Next: Add Storage`
    Provision at least 25G of space for your instance.
 
-   ![ec2 storage](/img/screens/deploying/ec2/ec2-t2-storage.png)
+   ![ec2 storage](/docs/static/img/screens/deploying/ec2/ec2-t2-storage.png)
 
 7. `Next: Add Tags`
 
@@ -45,18 +45,18 @@ Follow the below steps to create a new EC2 instance fairly quickly
    Note that your instances would be accessible from any IP address.
    We recommend that you update your security group rules to allow access from known IP addresses only.
 
-   ![ec2 instance type](/img/screens/deploying/ec2/ec2-security-group.png)
+   ![ec2 instance type](/docs/static/img/screens/deploying/ec2/ec2-security-group.png)
 
 9. `Review and Launch`
 
    Create and download a new ssh key to login to your EC2 instance.
    You won't be able to ssh to your instance if you lost this key.
 
-   ![ec2 ssh key](/img/screens/deploying/ec2/ec2-ssh-key.png)
+   ![ec2 ssh key](/docs/static/img/screens/deploying/ec2/ec2-ssh-key.png)
 
 10. Now go back to `View Instances` and wait for your instance state to be running.
 
-    ![ec2 instance status](/img/screens/deploying/ec2/ec2-instance-status.png)
+    ![ec2 instance status](/docs/static/img/screens/deploying/ec2/ec2-instance-status.png)
 
 :::note
 For more detailed information on EC2 setup please refer to the [AWS EC2 setup guide](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)

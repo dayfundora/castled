@@ -20,7 +20,7 @@ Because of this, building a new connector required significant effort from the U
 
 Each configuration in the UI is denoted by a configuration class on the backend. CFL works by adding class level and field level annotations to the configuration class as shown below.
 
-![gads_cfl](/img/screens/contributing/gads_cfl.png)
+![gads_cfl](/docs/static/img/screens/contributing/gads_cfl.png)
 
 
 The different form controls supported by CFL include:
@@ -55,7 +55,7 @@ Options References are used to fetch valid options for DROP_DOWN or RADIO_GROUP 
 
 Sometimes, forms need to auto generate help texts to guide the user on the next steps to follow. For instance in case of Google Sheets, once the service account is created, a help text needs to be shown to the user to give editor access to google sheets to the generated email.
 
-![gsheets_config](/img/screens/contributing/gsheets_config.png)
+![gsheets_config](/docs/static/img/screens/contributing/gsheets_config.png)
 
 This can be achieved by the following CFL:
 

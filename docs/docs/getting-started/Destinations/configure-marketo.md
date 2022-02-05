@@ -8,16 +8,16 @@ Marketo develops marketing automation software that provides inbound marketing, 
 
 ## Creating an app connection
 
-![marketo app config form](/img/screens/destinations/app_marketo_config.png)
+![marketo app config form](/docs/static/img/screens/destinations/app_marketo_config.png)
 
 To get **Client ID** and **Client Secret** login to Marketo and navigate to _Admin > Integrations > LaunchPoint_ menu,
 select a service and click View Details.
 
-![marketo client info](/img/screens/destinations/app_marketo_secrets.png)
+![marketo client info](/docs/static/img/screens/destinations/app_marketo_secrets.png)
 
 **Base Url** can be found in _Admin > Integrations > Webservices_
 
-![marketo base url info](/img/screens/destinations/app_marketo_base_url.png)
+![marketo base url info](/docs/static/img/screens/destinations/app_marketo_base_url.png)
 
 In this case the **Base Url** is `https://064-CCJ-768.mkforest.com`
 

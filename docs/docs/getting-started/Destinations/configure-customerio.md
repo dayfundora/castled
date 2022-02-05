@@ -16,13 +16,13 @@ For configuring a new app connector for customer.io, the following fields needs 
 - **API Key**
     - Tracking API Key generated for the workspace you are creating in customer.io
 
-![Docusaurus](/img/screens/destinations/customerio/app_cio_app_config.png)
+![Docusaurus](/docs/static/img/screens/destinations/customerio/app_cio_app_config.png)
 
 **Login** to [customer.io](https://fly.customer.io/login) and navigate to **Settings > Account Settings > API Credentials > Tracking API Keys ** to get **Site ID** and **API Key** required for configuring the app connector
 
-![Docusaurus](/img/screens/destinations/customerio/app_cio_account_settings.png)
+![Docusaurus](/docs/static/img/screens/destinations/customerio/app_cio_account_settings.png)
 
-![Docusaurus](/img/screens/destinations/customerio/app_cio_manage_credentials.png)
+![Docusaurus](/docs/static/img/screens/destinations/customerio/app_cio_manage_credentials.png)
 
 ## Creating a sync pipeline
 
@@ -30,7 +30,7 @@ Castled supports syncing of 2 objects
 - Person
 - Event
 
-![Docusaurus](/img/screens/destinations/customerio/app_cio_sync_objects.png)
+![Docusaurus](/docs/static/img/screens/destinations/customerio/app_cio_sync_objects.png)
 
 ### Syncing Person
 
@@ -41,11 +41,11 @@ For syncing Person object, you need to configure the following in App Sync Setti
 - **Matching Primary Key For Destination App Record**
     - Select either email or ID as the primary key depending on the unique identifier you selected above.
 
-![Docusaurus](/img/screens/destinations/customerio/app_cio_person_sync_objects.png)
+![Docusaurus](/docs/static/img/screens/destinations/customerio/app_cio_person_sync_objects.png)
 
 #### Sync Modes for Person
 Castled supports only UPSERT mode for Person Object
-![Docusaurus](/img/screens/destinations/customerio/app_cio_person_sync_modes.png)
+![Docusaurus](/docs/static/img/screens/destinations/customerio/app_cio_person_sync_modes.png)
 
 ### Syncing Event
 
@@ -53,7 +53,7 @@ Castled supports only UPSERT mode for Person Object
 Caslted supports sync of 2 type of Events
 - Track Event
 - Track Page View
-![Docusaurus](/img/screens/destinations/customerio/app_cio_event_types.png)
+![Docusaurus](/docs/static/img/screens/destinations/customerio/app_cio_event_types.png)
 
 
 #### Common Configuration for all Event Types
@@ -72,18 +72,18 @@ For syncing Track Event you need to configure the following in App Sync Settings
 - **Warehouse Column identifying the Event Name**
     - Select the warehouse column containing the Event Name
 
-![Docusaurus](/img/screens/destinations/customerio/app_cio_event_config.png)
+![Docusaurus](/docs/static/img/screens/destinations/customerio/app_cio_event_config.png)
 
 #### Specific Configuration for Track Page View
 For syncing Track Page View you need to configure the following in App Sync Settings
 - **Warehouse Column identifying the URL of the page viewed**
     - Select the warehouse column containing the Page URL
 
-![Docusaurus](/img/screens/destinations/customerio/app_cio_page_view_config.png)
+![Docusaurus](/docs/static/img/screens/destinations/customerio/app_cio_page_view_config.png)
 
 #### Sync Modes for Events
 Castled supports only INSERT mode for Event Object
-![Docusaurus](/img/screens/destinations/customerio/app_cio_event_sync_modes.png)
+![Docusaurus](/docs/static/img/screens/destinations/customerio/app_cio_event_sync_modes.png)
 
 ### Field mapping
 Castled will auto map the warehouse fields to the app fields with the same name. In most of the cases that would suffice. However Castled provides the flexibility to modify the destination columns if required.

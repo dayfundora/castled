@@ -8,7 +8,7 @@ Hubspot is a leading cloud-based CRM, which provides a set of marketing and sale
 
 ## Creating an app connection
 
-![Hubspot app config form](/img/screens/destinations/app_salesforce_config.png)
+![Hubspot app config form](/docs/static/img/screens/destinations/app_salesforce_config.png)
 
 Enter a unique name for your hubspot app. You will be directed towards the hubspot login screen for authentication. After authentication, you will be redirected back to the Castled console and a Hubspot app is created on Castled. You are now ready to create a pipeline to move the data to Hubspot.
 

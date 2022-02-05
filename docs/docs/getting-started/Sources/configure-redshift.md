@@ -92,7 +92,7 @@ ALTER DEFAULT PRIVILEGES IN SCHEMA "<your schema>" GRANT EXECUTE ON FUNCTIONS TO
     - **SSH Port**
     - **SSH User**
 
-![Docusaurus](/img/screens/sources/redshift/wh_redshift_config_3.png)
+![Docusaurus](/docs/static/img/screens/sources/redshift/wh_redshift_config_3.png)
 
 :::note
 
@@ -109,7 +109,7 @@ Castled uses SSH Tunelling to connect in cases where Redshift is accessible only
    1. SSH Host IP/DNS Name
    2. SSH Port : Default is 22 unless changed
    3. SSH Username : User created for Castled on the SSH Host
-      ![Docusaurus](/img/screens/sources/redshift/wh_redshift_config_2.png)
+      ![Docusaurus](/docs/static/img/screens/sources/redshift/wh_redshift_config_2.png)
 3. On successful creation of the new Connector , Castled will generate a key pair fo the SSH authentication . Refer [Connecting through SSH Tunnel](../Appendix/ssh-tunnel.md) for details on how to add the castled public key to authorized_keys.
 
 ## Encryption Details
